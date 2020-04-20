@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<?import javafx.scene.control.ToggleGroup?>
+<AnchorPane  maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="328.0" prefWidth="676.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.appwincontroll" >
+   <children>
+      <fx:define>
+         <ToggleGroup fx:id="TG11" />
+      </fx:define>
+      <Text layoutX="99.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Veuillez choisir si vrai ou faux : " wrappingWidth="453.13671875" />
+      <RadioButton toggleGroup="$TG11" stylesheets="/CSS/Toggle.css" fx:id="vrai" onAction="#setrue" layoutX="117.0" layoutY="97.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="145.0" text="Vrai " />
+      <RadioButton toggleGroup="$TG11" stylesheets="/CSS/Toggle.css" fx:id="faux" onAction="#setfalse" layoutX="338.0" layoutY="97.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="145.0" text="Faux " />
+   </children>
+</AnchorPane>

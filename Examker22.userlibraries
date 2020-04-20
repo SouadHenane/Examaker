@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="jdom-2.0.6-contrib">
+    <archive path="C:/Users/CHAREF EDDINE/Desktop/jdom/jdom-2.0.6-contrib.jar" />
+    <archive path="C:/Users/CHAREF EDDINE/Desktop/jdom/jdom-2.0.6-junit.jar" />
+    <archive path="C:/Users/CHAREF EDDINE/Desktop/jdom/jdom-2.0.6.jar" />
+    <archive path="C:/Users/CHAREF EDDINE/Desktop/jdom/lib/jaxen-1.1.6.jar" />
+    <archive path="C:/Users/CHAREF EDDINE/Desktop/jdom/lib/xercesImpl.jar" />
+    <archive path="C:/Users/CHAREF EDDINE/Desktop/jdom/lib/xml-apis.jar" />
+    <archive path="C:/Users/CHAREF EDDINE/Desktop/jdom/lib/xalan/serializer-2.7.2.jar" />
+    <archive path="C:/Users/CHAREF EDDINE/Desktop/jdom/lib/xalan/xalan-2.7.2.jar" />
+  </library>
+</eclipse-userlibraries>
+

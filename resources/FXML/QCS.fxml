@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<?import javafx.scene.control.ToggleGroup?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="330.0" prefWidth="638.0" stylesheets="/CSS/Appwin.css" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.Tabcon1">
+   <children>
+      <fx:define>
+         <ToggleGroup fx:id="TG" />
+      </fx:define>
+      <TextField fx:id="c1" layoutX="110.0" layoutY="45.0" prefHeight="35.0" prefWidth="463.0" promptText="*Champs obligatoire" />
+      <TextField fx:id="c2" layoutX="110.0" layoutY="90.0" prefHeight="35.0" prefWidth="463.0" promptText="*Champs obligatoire" />
+      <TextField fx:id="c3" layoutX="110.0" layoutY="135.0" prefHeight="35.0" prefWidth="463.0" promptText="*Champs obligatoire" />
+      <TextField fx:id="c4" layoutX="110.0" layoutY="180.0" prefHeight="35.0" prefWidth="463.0" />
+      <TextField fx:id="c5" layoutX="110.0" layoutY="225.0" prefHeight="35.0" prefWidth="463.0" />
+      <RadioButton fx:id="r1" stylesheets="/CSS/Toggle.css" toggleGroup="$TG" layoutX="80.0" layoutY="50.0" mnemonicParsing="false" onAction="#roa1" prefHeight="17.0" prefWidth="0.0" />
+      <RadioButton fx:id="r2" stylesheets="/CSS/Toggle.css" toggleGroup="$TG" layoutX="80.0" layoutY="95.0" mnemonicParsing="false" onAction="#roa2" prefHeight="17.0" prefWidth="0.0" />
+      <RadioButton fx:id="r3" stylesheets="/CSS/Toggle.css" toggleGroup="$TG" layoutX="80.0" layoutY="140.0" mnemonicParsing="false" onAction="#roa3" prefHeight="17.0" prefWidth="0.0" />
+      <RadioButton fx:id="r4" stylesheets="/CSS/Toggle.css" toggleGroup="$TG" layoutX="80.0" layoutY="185.0" mnemonicParsing="false" onAction="#roa4" prefHeight="17.0" prefWidth="0.0" />
+      <RadioButton fx:id="r5" stylesheets="/CSS/Toggle.css" toggleGroup="$TG" layoutX="80.0" layoutY="230.0" mnemonicParsing="false" onAction="#roa5" prefHeight="17.0" prefWidth="0.0" />
+      <Text layoutX="91.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Veuillez saisr les situations possible : " textAlignment="CENTER" wrappingWidth="474.13671875" />
+      <Button fx:id="AS1" onAction="#AddStat" stylesheets="/CSS/buttonCircle.css" layoutX="465.0" layoutY="274.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="108.0" text="Ajouter " textAlignment="RIGHT" />
+      <Label fx:id="Err1" layoutX="112.0" layoutY="274.0" prefHeight="35.0" prefWidth="340.0" />
+   </children>
+</AnchorPane>
